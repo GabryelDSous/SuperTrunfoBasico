@@ -18,7 +18,7 @@ void main(){
 
     // Pegando o estado
     printf("Informe o estado: ");
-    fflush(stdin);
+    //fflush(stdin);
     estadoUm = getchar();
 
     //Pegando o código da carta
