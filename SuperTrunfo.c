@@ -54,7 +54,7 @@ void main(){
 
     // Carta 2
     printf("\n------------- Carta 2 -------------\n");
-    /* Definindo variáveis
+    //Definindo variáveis
     char estadoDois;
     char codeCartaDois[3];
     char nomeCidadeDois[30];
@@ -94,13 +94,13 @@ void main(){
     // Pegando os pontos turísticos
     printf("Números de Pontos Turísticos: ");
     fflush(stdin);
-    scanf("%d", &pontosTuristicosDois);*/
+    scanf("%d", &pontosTuristicosDois);
 
     // ==============================================
     // RESULTADO
 
     // Carta 1
-    printf("Carta 1\n");
+    printf("\nCarta 1\n");
     printf("Estado: %c\n", estadoUm);
     printf("Código: %s\n", codeCartaUm);
     printf("Nome da cidade: %s\n", nomeCidadeUm);
@@ -109,15 +109,15 @@ void main(){
     printf("PIB: %.2lf bilhões de reais\n", pibUm);
     printf("Número de Pontos Turísticos: %d\n",pontosTuristicosUm);
 
-    /* Carta 2
-    printf("Carta 2\n");
+    //Carta 2
+    printf("\Carta 2\n");
     printf("Estado: %s\n", estadoDois);
     printf("Código: %s\n", codeCartaDois);
     printf("Nome da cidade: %s\n", nomeCidadeDois);
     printf("População: %d\n", populacaoDois);
     printf("Área: %.2lf km²\n", areaDois);
     printf("PIB: %.2lf bilhões de reais\n", pibDois);
-    printf("Número de Pontos Turísticos: %d\n",pontosTuristicosDois);*/
+    printf("Número de Pontos Turísticos: %d\n",pontosTuristicosDois);
 
     system("pause");
 }
